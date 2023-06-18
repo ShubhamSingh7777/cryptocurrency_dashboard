@@ -2,6 +2,7 @@
   "name": "cryptocurrency_dashboad",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ShubhamSingh7777.github.io/crypto_dashboard_for_save",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -15,6 +16,7 @@
     "chart.js": "^4.3.0",
     "chartjs-plugin-datalabels": "^2.2.0",
     "cra-template": "1.2.0",
+    "gh-pages": "^5.0.0",
     "millify": "^6.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0-beta.1",
@@ -27,6 +29,8 @@
     "web-vitals": "^3.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
