@@ -2,7 +2,7 @@
   "name": "cryptocurrency_dashboad",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ShubhamSingh7777.github.io/cripto_dashboad_asli",
+
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -29,8 +29,6 @@
     "web-vitals": "^3.3.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
