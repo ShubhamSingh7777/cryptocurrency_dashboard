@@ -1,0 +1,125 @@
+.cont {
+    width: 98% !important;
+    /* height: 100%; */
+    margin: 1%;
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.147);
+    border-radius: 5px;
+    height: auto;
+    padding: 5px 0px;
+  }
+  
+  .wrapr {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .top {
+    font-weight: 800;
+    flex: 2;
+    margin: 5px;
+    font-size: clamp(1rem, 1vw + 0.5rem, 1.5rem);
+  }
+  
+  .midle {
+    display: flex;
+    justify-content: space-between;
+    flex: 7;
+  }
+  
+  .lefft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    flex: 50%;
+  }
+  
+  .dropdown-contaier {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .title {
+    flex: 4;
+    font-weight: 800;
+    font-size: 1rem;
+    color: orange;
+    margin-right: 1%;
+  }
+  
+  .dropdawn {
+    flex: 8;
+    height: 50px;
+    width: 100%;
+  }
+  
+  .select {
+    /* min-width: 50px; */
+    width: 110px;
+    text-align: center;
+    height: 50px;
+    overflow: scroll;
+    font-weight: 700;
+    margin-left: 8px;
+    background-color: #e6ecff;
+    border: none;
+    border-radius: 10px;
+    font-size: clamp(.8rem, .9vw + .9rem, .9rem);
+    cursor: pointer;
+  }
+  
+  option {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .riht {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: space-around;
+    align-items: center;
+    flex: 50%;
+    width: 100%;
+  }
+  
+  .input {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .converted-value {
+    height: 50px;
+    min-width: 200px;
+    text-align: center;
+    line-height: 60px;
+    color: green;
+    font-weight: 500;
+  }
+  
+  .bottom {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottom button {
+    width: 150px;
+    min-height: 50px;
+    background-color: blue;
+    margin: 1%;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+  }
+  

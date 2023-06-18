@@ -1,0 +1,176 @@
+/* main body css */
+.inner_main_body {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* Allow child divs to wrap to new lines */
+    padding: 5% 2%;
+    background-color: #eaeaea;
+}
+
+/* left part css start */
+.left_body {
+    width: 70%;
+    padding-top:15px;
+    margin-right: 2%;
+    border-radius: 2
+    px;
+    background-color: #ffffff;
+    /* box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, 0.107); */
+    box-shadow: 0px 10px 51px 0px rgba(58, 58, 58, 0.107);
+}
+
+@media (max-width: 600px) {
+    .left_body {
+        width: 100%;
+        /* Adjust as needed for the desired width */
+    }
+
+    .right_body {
+        width: 100% !important;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 51px 0px #ffffff;
+        margin-right: 2%;
+        margin-top: 3%;
+    }
+}
+
+
+/* right body css part start  */
+.right_body {
+    width: 28%;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 51px 0px rgba(58, 58, 58, 0.107);
+}
+
+/* left_upper_part in which symbol and serch box have css part start  */
+.left_upper_part {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+/* currency_symbol_dropdown css part start  */
+.currency_symbol_dropdown {
+    width: 15%;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+/* serch box css start  */
+.search_bar {
+    width: 80%;
+    margin-left: 2%;
+    padding: 6px 0px;
+}
+
+/* days_currency_chart_boxes_part css start  */
+.days_currency_chart_boxes_part {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* days css for width  */
+.days {
+    width: 71%;
+    padding: 5px 0px;
+}
+
+/* currency_chart_combined_part css start  */
+.currency_chart_combined_part {
+    width: 29%;
+    display: flex;
+}
+
+/* currency css start for with  */
+.currency {
+    width: 50%;
+    padding: 5px 0px;
+}
+
+/* chart css start for width  */
+.chart {
+    width: 50%;
+    padding: 5px 0px;
+}
+
+/* main_chart_box css start  */
+.main_chart_box {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* left_bottum_part css part start */
+.left_bottum_part {
+    display: flex;
+    width: 100%;
+}
+
+/* left_bottum_left_box css start  */
+.left_bottum_left_box {
+    width: 48%;
+    height: 250px;
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.147);
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.pie_chart{
+   height: auto;
+}
+
+
+/* left_bottum_right_box css start  */
+.left_bottum_right_box {
+    width: 48%;
+    margin-left: 2%;
+    height: 220px;
+    padding: 5px 0px;
+}
+
+/* right_body_content_start css start  */
+.right_body_content_start {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+/* days css for inline  */
+.days ul li {
+    display: inline;
+    width: 100px;
+    padding: 6px 10px;
+    margin-right: 5px;
+    border-radius: 6px;
+    color: #000000;
+    border: 1px solid black;
+    background-color: #e6ecff;
+}
+.days ul li:hover{
+    background-color: #2c375a;
+    color: white;
+    cursor: pointer;
+}
+.days ul {
+    padding-left: 20px;
+}
+
+.upper_part_of_pie{
+    font-size: 20px;
+    color: #000000;
+    font-weight:800;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 8px;
+    width: 100%;
+}
+.right_body_content_start .trending_coin{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:capitalize;
+    padding: 0px 0px;
+}
